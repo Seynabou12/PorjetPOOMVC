@@ -12,7 +12,6 @@ require_once('./Views/template/sidebar.php');
         </div>
     </div>
             <div class="row mt-4">
-            
                 <table class="table table-bordered table-striped">
                 <div class="jsgrid-grid-header jsgrid-header-scrollbar">
                     <thead>
@@ -34,6 +33,7 @@ require_once('./Views/template/sidebar.php');
                     <tbody>
 
                         <?php
+                        
                             foreach ($proprietaires as $proprietaire) {
                         ?>
                             <tr>
